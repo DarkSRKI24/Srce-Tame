@@ -87,7 +87,7 @@ main {
     align-items: center;
 }
 
-.my-picture img{
+.my-picture {
     display: block;
     border: 4px solid #ffffff;
     object-fit: cover;
@@ -95,10 +95,7 @@ main {
     width: 178px;
 }
 
-.my-picture {
-}
-
-section:first-child {
+.myself-img {
     margin: 4rem 0 0;
 }
 
@@ -108,7 +105,27 @@ section {
     align-items: center;
 }
 
+.my-name-text {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
 
+.myself-bio {
+    border-top: 4px;
+    border-bottom: 4px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 3rem 0;
+    text-align: center;
+    width: 35%;
+}
+
+.myself-bio p {
+    padding: 0 2rem;
+}
 
 
 
