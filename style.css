@@ -12,3 +12,62 @@ h1, h2 {
 body {
     background-color: #252525;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 4px;
+    border-image: linear-gradient(to right, #1363DF, #47B5FF, #1363DF, #47B5FF) 1;
+    border-style: solid;
+} 
+
+nav {
+    width: 60%;
+    padding: 0.5rem;
+}
+
+.logo {
+    height: 1rem;
+    display: block;
+    margin-right: 2.5px;
+}
+
+.logo-text {
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links a{
+    margin-right: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav-links a:last-child {
+    margin-right: 0;
+}
