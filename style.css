@@ -91,20 +91,22 @@ main {
     display: block;
     border: 4px solid #ffffff;
     object-fit: cover;
-    object-position: 50% 75%;
-    height: 100%;
-    width: 110%;
-}
-
-.my-picture {
     height: 250px;
     width: 178px;
 }
 
-section:first-child {
-    margin: 4rem 0;
+.my-picture {
 }
 
+section:first-child {
+    margin: 4rem 0 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
