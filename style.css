@@ -183,6 +183,8 @@ section {
     display: block;
     background-color: #252525;
     padding: 8px 16px;
+    outline: 4px solid #ffffff;
+    outline-offset: -4px;  
 }
 
 .myself-link a span::before, .myself-link a span::after {
